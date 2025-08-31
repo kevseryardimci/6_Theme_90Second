@@ -1,0 +1,11 @@
+{
+	"name": "90SecondTime",
+	"short_name": "90SecondTime",
+	"description": "",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": [],
+	"screenshots": []
+}
