@@ -12,18 +12,18 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Browser,
 		C3.Behaviors.Rotate,
 		C3.Plugins.System.Cnds.OnLayoutStart,
+		C3.Plugins.Audio.Acts.StopAll,
+		C3.Plugins.Audio.Acts.Play,
 		C3.Plugins.Touch.Cnds.OnTouchObject,
 		C3.Plugins.Sprite.Cnds.CompareFrame,
 		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.Sprite.Acts.SetPos,
 		C3.Plugins.Audio.Acts.Stop,
-		C3.Plugins.Audio.Acts.Play,
 		C3.Plugins.Mouse.Cnds.IsOverObject,
 		C3.Plugins.Sprite.Acts.SetAnimFrame,
 		C3.Plugins.System.Cnds.Else,
 		C3.Plugins.Mouse.Acts.SetCursor2,
 		C3.Plugins.System.Acts.GoToLayout,
-		C3.Plugins.Audio.Acts.StopAll,
 		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.System.Cnds.CompareVar,
 		C3.Plugins.System.Cnds.TriggerOnce,
@@ -56,7 +56,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetInstanceVar,
 		C3.Plugins.Arr.Acts.Pop,
 		C3.Plugins.System.Cnds.Every,
-		C3.Plugins.Text.Acts.SetText
+		C3.Plugins.Text.Acts.SetText,
+		C3.Plugins.System.Cnds.OnLayoutEnd
 	];
 };
 self.C3_JsPropNameTable = [
